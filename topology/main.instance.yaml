@@ -1,0 +1,12 @@
+schema: remotive-topology-instance:0.18
+
+platform:
+  includes:
+    - ./vehicle.platform.yaml
+
+ecus:
+  SCCM:
+    mock: {}
+  BCM:
+    mock: {}
+  FLCM: {}
